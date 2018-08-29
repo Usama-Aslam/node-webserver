@@ -25,11 +25,11 @@ app.use((req,res,next)=>{
     })
     next()
 })
-app.use((req,res,next)=>{
+/* app.use((req,res,next)=>{
     res.render('maintainance.hbs',{
         titleAbout:'maintainance is underProcess'
     })
-})
+}) */
 /* app.get('/',(req,res)=>{
     res.send({
         name:'Usama',
